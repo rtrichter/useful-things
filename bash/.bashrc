@@ -1,8 +1,8 @@
-if [ -f /root/.bash_functions ]; then
-    . "$HOME/.bash_functions"
+if [ -f $HOME/.bash_functions ]; then
+    source "$HOME/.bash_functions"
 fi
 
-if [ -f /root/.bash_aliases ]; then
-    . "$HOME/.bash_aliases"
+if [ -f $HOME/.bash_aliases ]; then
+    source "$HOME/.bash_aliases"
 fi
     
