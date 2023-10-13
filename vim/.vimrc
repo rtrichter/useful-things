@@ -1,12 +1,14 @@
 set rnu
 set nu
-
 set tabstop=4
 set shiftwidth=4
 set expandtab
 
 set incsearch
 set hlsearch
+
+nnoremap j gj
+nnoremap k gk
 
 "Mode Settings
 
